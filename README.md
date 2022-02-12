@@ -22,11 +22,8 @@ They can be installed from the Python Package Index using pip as follows :
      pip install pandas
      pip install tensorflow
      pip install tensorflow-gpu
-     
-You can also use [Google Colab](https://colab.research.google.com/) in a Web Browser with most of the libraries preinstalled.
  
 ### Usage
-This project is implemented using interactive Jupyter Notebooks. You just need to open the notebook on your local system or on [Google Colab](https://colab.research.google.com/) and execute the code cells in sequential order. The function of each code cell is properly explained with the help of comments.
 
 Please download the following files (from the given links) and place them in the Models folder in the root directory :
 1. YOLOv3 weights : https://pjreddie.com/media/files/yolov3.weights
@@ -147,10 +144,9 @@ Artificial Intelligence has sure come a long way in solving such real world prob
 ## Final Notes
 **Thanks for going through this Repository! Have a nice day.**</br>
 </br>**Got any Queries? Feel free to contact me.**</br>
-</br>**Saini Rohan Rao**
+</br>**Ritwik Kumar Singh**
 <p align="left">
-<a href="mailto:rohanrao619@gmail.com"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/Gmail.svg" height ="45" title="Gmail" alt="mailto:rohanrao619@gmail.com"></a>
-<a href="https://github.com/rohanrao619"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/GitHub.svg" height ="45" title="GitHub" alt="https://github.com/rohanrao619"></a>
-<a href="https://www.linkedin.com/in/rohanrao619"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/LinkedIn.svg" height ="45" title="LinkedIn" alt="https://www.linkedin.com/in/rohanrao619"></a>
-<a href="https://rohanrao619.github.io/"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/Portfolio.svg" height ="45" title="Portfolio Website" alt="https://rohanrao619.github.io/"></a>
+<a href="mailto:ritwiksingh39@gmail.com"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/Gmail.svg" height ="45" title="Gmail" alt="mailto:ritwiksingh39@gmail.com"></a>
+<a href="https://github.com/ritwik-singh"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/GitHub.svg" height ="45" title="GitHub" alt="https://github.com/ritwik-singh"></a>
+<a href="https://www.linkedin.com/in/ritwiksingh28"><img src="https://github.com/rohanrao619/Icons/blob/master/SVGs/LinkedIn.svg" height ="45" title="LinkedIn" alt="https://www.linkedin.com/in/ritwiksingh28"></a>
 </p>
