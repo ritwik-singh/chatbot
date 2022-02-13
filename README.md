@@ -46,7 +46,7 @@ run chat.py models\dataset_name\model_name\checkpoint.ckpt
 
 The result should look like this:
 
-![chat](doc_files/chat.png "chat")
+![chat](chat.png "chat")
 
 
 
