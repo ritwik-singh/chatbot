@@ -1,5 +1,6 @@
 # ChatBot using Seq2Seq model
 
+In this project I made a chatbot that uses Seq2Seq model with attention with Tensorflow.
 
 ## Getting Started
 
@@ -20,8 +21,32 @@ They can be installed from the Python Package Index using pip as follows :
      pip install pandas
      pip install tensorflow
      pip install tensorflow-gpu
+     
+     
+## Training a model
+To train a model from a python console:
+
+1. Configure the [hparams.json](seq2seq-chatbot/hparams.json) file to the desired training hyperparameters
+
+2. Set console working directory to the **seq2seq-chatbot** directory. This directory should have the **models** and **datasets** directories directly within it.
+
+3. To train a new model, run train.py with the dataset path:
+```shell
+run train.py --datasetdir=datasets\dataset_name
+```
  
-### Usage
+### To chat with a trained model from a python console:
+
+1. Set console working directory to the **seq2seq-chatbot** directory. This directory should have the **models** and **datasets** directories directly within it.
+
+2. Run chat.py with the model checkpoint path:
+```shell
+run chat.py models\dataset_name\model_name\checkpoint.ckpt
+```
+
+The result should look like this:
+
+![chat](doc_files/chat.png "chat")
 
 
 
@@ -42,17 +67,13 @@ If you have any new ideas or suggestions to improve this project, feel free to c
 ## License
 This Project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
 
-## Project Description and Results
+## Acknowledgements
+This implementation was inspired by:
+- Kirill Eremenko & Hadelin de Ponteves [Deep NLP Udemy course](https://www.udemy.com/chatbot/)
+- TensorFlow's [Neural Machine Translation (seq2seq) Tutorial](https://www.tensorflow.org/tutorials/seq2seq)
+- [TF NMT GitHub](https://github.com/tensorflow/nmt)
+- (https://github.com/AbrahamSanders/seq2seq-chatbot/blob/master/README.md)
 
-
-### Training 
-
-
-
-
-### Pipeline
-
-### Results
 
 ## Final Notes
 **Thanks for going through this Repository! Have a nice day.**</br>
